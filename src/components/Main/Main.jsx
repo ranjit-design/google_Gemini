@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { useContext } from 'react'
 import { Context } from '../../context/context'
 
-const main = () => {
+const Main = () => {
 
   const {onSent, recentPrompts, setRecentPrompts, prevPrompts, setPrevPrompts, showResult, setShowResult, loading, setLoading, resultData, setResultData, setInput, input} = useContext(Context)
 
@@ -82,4 +82,4 @@ const main = () => {
   )
 }
 
-export default main
+export default Main
